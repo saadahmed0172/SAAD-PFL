@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+main(){
+
+cout<<"Enter you Matric marks: "<<endl;
+int matric;
+cin>>matric;
+cout<<" Enter your FSC. marks: "<<endl;
+int FSC;
+cin>>FSC;
+cout<<" Enter ECAT marks:" <<endl;
+int ECAT;
+cin>>ECAT;
+int Aggregate;
+Aggregate = 0.1*matric+0.4*FSC+0.5*ECAT"
+cout<< "your aggregate is: " <<Aggregate<< "%" ;
+}
